@@ -74,7 +74,7 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var name_service_1 = __webpack_require__(1);
-alert("HELLO " + name_service_1.NameService.getAppName());
+alert("HELLO " + name_service_1.NameService.getAppName().name);
 
 
 /***/ }),
@@ -85,7 +85,9 @@ alert("HELLO " + name_service_1.NameService.getAppName());
 
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.NameService = {
-    getAppName: function () { return "APP1"; }
+    getAppName: function () {
+        return { id: 0, name: "APP1" };
+    }
 };
 
 
