@@ -1,0 +1,1 @@
+﻿alert('HELLO APP2');
