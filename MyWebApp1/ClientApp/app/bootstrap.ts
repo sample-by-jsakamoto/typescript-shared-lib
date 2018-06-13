@@ -1,3 +1,3 @@
-﻿import { NameService } from './services/name.service';
+﻿import { NameService } from 'app/services/name.service';
 
 alert(`HELLO ${NameService.getAppName()}`);
